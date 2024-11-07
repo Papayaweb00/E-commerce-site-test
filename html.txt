@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic & Natural Grocery Store | Snacks & More | Prana Foods</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/keyframes.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_div_top">
+            <h3>Free shipping starting at $59* in Quebec.</h3>
+        </div>
+
+        <nav class="header_navbar">
+            <input type="checkbox" name="check" id="check">
+            <label for="check" class="link header_label header_check" id="header_check"><i
+                    class="fa-solid fa-bars"></i></label>
+
+            <div id="respon">
+                <label for="check" class="link header_label header_check" id="header_check"><i
+                        class="fa-solid fa-x"></i></label>
+
+                <ul class="header_nav_ul_respon">
+                    <li class="header_list_respon">
+                        <a href="#" class="header_link link_respon link link1_respon">Shop All <i
+                                class="fa-solid fa-plus link"></i></a>
+                        <ul class="header_list_respon_hover header_list_respon_hover1">
+                            <div class="header_list_respon_hover1_flex">
+                                <h5 class="header_list_respon_hover_titre header_list_respon_hover_titre1">Breakfast <i
+                                        class="fa-solid fa-plus link_respon_h5"></i></h5>
+                                <ul class="header_nav_ul header_nav_ul1">
+                                    <li class="header_list_respon"><a href="#" class="link">Breakfast Boxes</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Granolove</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Granolove Gourmet</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Overnight Chia-oats</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Chia Seeds</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Nut butters & Spreads</a>
+                                    </li>
+                                    <li class="header_list_respon"><a href="#" class="link">Topping & Superfood</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Beverages, tea, coffee</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="header_list_respon_hover1_flex">
+                                <h5 class="header_list_respon_hover_titre header_list_respon_hover_titre2">Snacking <i
+                                        class="fa-solid fa-plus link_respon_h5"></i></h5>
+                                <ul class="header_nav_ul header_nav_ul2">
+                                    <li class="header_list_respon"><a href="#" class="link">Snacking Boxes</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Trail Mixes</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Allergen Free Granola
+                                            Bar</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Cookies</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Sweet Snacks</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Salty Snacks</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Chocolate Treats</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Dried Fruits</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="header_list_respon_hover1_flex">
+                                <h5 class="header_list_respon_hover_titre header_list_respon_hover_titre3">Baking <i
+                                        class="fa-solid fa-plus link_respon_h5"></i></h5>
+                                <ul class="header_nav_ul header_nav_ul3">
+                                    <li class="header_list_respon"><a href="#" class="link">Nuts & Seeds</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Chocolate</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Sugar & Syrup</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Oils & Butters</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Flour</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Egg Replacement</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Dairy Alternative</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Flavours & Spices</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Dried Fruits</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="header_list_respon_hover1_flex">
+                                <h5 class="header_list_respon_hover_titre header_list_respon_hover_titre4">Cooking <i
+                                    class="fa-solid fa-plus link_respon_h5"></i></h5>
+                                <ul class="header_nav_ul header_nav_ul4">
+                                    <li class="header_list_respon"><a href="#" class="link">Whole Grains</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Plant-Based Proteins</a>
+                                    </li>
+                                    <li class="header_list_respon"><a href="#" class="link">Oils & Butters</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Nuts</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Seeds</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Spices & Seasonings</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="header_list_respon_hover1_flex">
+                                <h5 class="header_list_respon_hover_titre header_list_respon_hover_titre5">Our
+                                    favourites <i class="fa-solid fa-plus link_respon_h5"></i></h5>
+                                <ul class="header_nav_ul header_nav_ul5">
+                                    <li class="header_list_respon"><a href="#" class="link">New arrival</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Gift ideas</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">On sale</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Best Sellers</a></li>
+                                    <li class="header_list_respon"><a href="#" class="link">Best Sellers</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="header_list_respon">
+                        <a href="#" class="header_link link_respon link link2_respon">Recipes <i
+                                class="fa-solid fa-plus link"></i></a>
+                        <ul class="header_list_respon_hover header_list_respon_hover2">
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Breakfast</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Appetizers and Sides Recipes</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Soups</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Salads</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Drinks</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Drinks</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Main Courses</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Desserts</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Snacks</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="header_list_respon">
+                        <a href="#" class="header_link link_respon link link2_respon">Subscription</a>
+                    </li>
+
+                    <li class="header_list_respon">
+                        <a href="#" class="header_link link_respon link link3_respon">Who we are <i
+                                class="fa-solid fa-plus link"></i></a>
+                        <ul class="header_list_respon_hover header_list_respon_hover3">
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Mission</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Regenerative pumpkin seeds</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Prana local sourcing</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Quebec organic oats</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Prana & Fairtrade movement</a>
+                            </li>
+                            <li class="header_list_respon">
+                                <a href="#" class="link">Blog</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="header_formulaire_respon_account">
+                    <form class="header_formulaire_respon">
+                        <select name="pays" id="pays">
+                            <option value="Canada">Canada</option>
+                            <option value="United States">United States</option>
+                        </select>
+                    </form>
+                    <a href="#" class="header_account_respon">Account</a>
+                </div>
+            </div>
+
+            <ul class="header_nav_ul header_nav_ul1">
+                <li class="header_list">
+                    <a href="#" class="header_link link link1">Shop All</a>
+                    <ul class="header_list_hover header_list_hover1">
+                        <div class="header_list_hover1_flex">
+                            <h5 class="header_list_hover_titre">Breakfast</h5>
+                            <ul class="header_nav_ul header_nav_ul1">
+                                <li class="header_list"><a href="#" class="link">Breakfast Boxes</a></li>
+                                <li class="header_list"><a href="#" class="link">Granolove</a></li>
+                                <li class="header_list"><a href="#" class="link">Granolove Gourmet</a></li>
+                                <li class="header_list"><a href="#" class="link">Overnight Chia-oats</a></li>
+                                <li class="header_list"><a href="#" class="link">Chia Seeds</a></li>
+                                <li class="header_list"><a href="#" class="link">Nut butters & Spreads</a></li>
+                                <li class="header_list"><a href="#" class="link">Topping & Superfood</a></li>
+                                <li class="header_list"><a href="#" class="link">Beverages, tea, coffee</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="header_list_hover1_flex">
+                            <h5 class="header_list_hover_titre">Snacking</h5>
+                            <ul class="header_nav_ul">
+                                <li class="header_list"><a href="#" class="link">Snacking Boxes</a></li>
+                                <li class="header_list"><a href="#" class="link">Trail Mixes</a></li>
+                                <li class="header_list"><a href="#" class="link">Allergen Free Granola Bar</a></li>
+                                <li class="header_list"><a href="#" class="link">Cookies</a></li>
+                                <li class="header_list"><a href="#" class="link">Sweet Snacks</a></li>
+                                <li class="header_list"><a href="#" class="link">Salty Snacks</a></li>
+                                <li class="header_list"><a href="#" class="link">Chocolate Treats</a></li>
+                                <li class="header_list"><a href="#" class="link">Dried Fruits</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="header_list_hover1_flex">
+                            <h5 class="header_list_hover_titre">Baking</h5>
+                            <ul class="header_nav_ul">
+                                <li class="header_list"><a href="#" class="link">Nuts & Seeds</a></li>
+                                <li class="header_list"><a href="#" class="link">Chocolate</a></li>
+                                <li class="header_list"><a href="#" class="link">Sugar & Syrup</a></li>
+                                <li class="header_list"><a href="#" class="link">Oils & Butters</a></li>
+                                <li class="header_list"><a href="#" class="link">Flour</a></li>
+                                <li class="header_list"><a href="#" class="link">Egg Replacement</a></li>
+                                <li class="header_list"><a href="#" class="link">Dairy Alternative</a></li>
+                                <li class="header_list"><a href="#" class="link">Flavours & Spices</a></li>
+                                <li class="header_list"><a href="#" class="link">Dried Fruits</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="header_list_hover1_flex">
+                            <h5 class="header_list_hover_titre">Cooking</h5>
+                            <ul class="header_nav_ul">
+                                <li class="header_list"><a href="#" class="link">Whole Grains</a></li>
+                                <li class="header_list"><a href="#" class="link">Plant-Based Proteins</a></li>
+                                <li class="header_list"><a href="#" class="link">Oils & Butters</a></li>
+                                <li class="header_list"><a href="#" class="link">Nuts</a></li>
+                                <li class="header_list"><a href="#" class="link">Seeds</a></li>
+                                <li class="header_list"><a href="#" class="link">Spices & Seasonings</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="header_list_hover1_flex">
+                            <h5 class="header_list_hover_titre">Our favourites</h5>
+                            <ul class="header_nav_ul">
+                                <li class="header_list"><a href="#" class="link">New arrival</a></li>
+                                <li class="header_list"><a href="#" class="link">Gift ideas</a></li>
+                                <li class="header_list"><a href="#" class="link">On sale</a></li>
+                                <li class="header_list"><a href="#" class="link">Best Sellers</a></li>
+                                <li class="header_list"><a href="#" class="link">Best Sellers</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </li>
+                <li class="header_list">
+                    <a href="#" class="header_link link link2">Recipes</a>
+                    <ul class="header_list_hover header_list_hover2">
+                        <li class="header_list">
+                            <a href="#" class="link">Breakfast</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Appetizers and Sides Recipes</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Soups</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Salads</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Drinks</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Drinks</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Main Courses</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Desserts</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Snacks</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header_list">
+                    <a href="#" class="header_link link link3">Who we are</a>
+                    <ul class="header_list_hover header_list_hover3">
+                        <li class="header_list">
+                            <a href="#" class="link">Mission</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Regenerative pumpkin seeds</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Prana local sourcing</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Quebec organic oats</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Prana & Fairtrade movement</a>
+                        </li>
+                        <li class="header_list">
+                            <a href="#" class="link">Blog</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <img src="logo/name.png" alt="Prana" class="prana_img">
+
+            <div class="header_nav_form">
+                <div class="header_nav_icons header_nav_icons1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <div class="header_nav_icons_lang">
+                        <span class="header_nav_lang">FR</span>
+                        <span class="header_nav_lang">EN</span>
+                    </div>
+                </div>
+
+                <form class="header_formulaire">
+                    <select name="pays" id="pays">
+                        <option value="Canada">Canada</option>
+                        <option value="United States">United States</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="header_nav_icons" id="header_nav_icons_respon">
+                <div class="div">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <div class="header_nav_icons_lang header_nav_icons_lang_respon">
+                    <span class="header_nav_lang">FR</span>
+                    <span class="header_nav_lang">EN</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main_section main_section1">
+            <button class="main_section_button">Discover</button>
+            <button class="main_section_button">shop now!</button>
+            <a href="#section2" class="link section1_link_ancre">&#10507;</a>
+            <a href="#section2" class="link section1_link_ancre section1_link_ancre2">&#10507;</a>
+        </section>
+
+        <section class="main_section main_section2" id="section2">
+            <h1 class="main_section_titre link">Healthy, quick, and delicious breakfasts to kick-start your day!</h1>
+
+            <div class="main_container">
+                <div class="main_container_content">
+                    <div class="main_container_content1">
+                        <div class="main_section_day">
+                            <div class="main_insert_image1"></div>
+                            <div class="main_section_day_div">
+                                <h3>GRANOLOVE GOURMET –</h3>
+                                <h4>Choco-Chips Cookie Crunch Granola</h4>
+                                <h3>From $6.99</h3>
+                            </div>
+                        </div>
+                        <div class="main_section_day">
+                            <div class="main_insert_image2"></div>
+                            <div class="main_section_day_div">
+                                <h3>GRANOLOVE GOURMET –</h3>
+                                <h4>Almond Butter Crunch Granola</h4>
+                                <h3>From $6.99</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_container_content1">
+                        <div class="main_section_day">
+                            <div class="main_insert_image3"></div>
+                            <div class="main_section_day_div">
+                                <h3>GRANOLOVE GOURMET –</h3>
+                                <h4>Choco-Strawberry Crunch Granola</h4>
+                                <h3>From $6.99</h3>
+                            </div>
+                        </div>
+                        <div class="main_section_day">
+                            <div class="main_insert_image4"></div>
+                            <div class="main_section_day_div">
+                                <h3>GRANOLOVE GOURMET –</h3>
+                                <h4>Organic Oat & Chia Mix</h4>
+                                <h3>From $6.99</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="main_section_btn1">View all products</button>
+            </div>
+
+            <div class="main_container2">
+                <div class="main_container_insert_image1">
+                    <h2 class="h2">Cook like a chef</h2>
+                    <a href="#" class="main_section_btn link">View products</a>
+                </div>
+                <div class="main_container_insert_image2">
+                    <h2>For a breakfasts of champions</h2>
+                    <a href="#" class="main_section_btn link">View products</a>
+                </div>
+                <div class="main_container_insert_image3">
+                    <h2>Be a snacking master</h2>
+                    <a href="#" class="main_section_btn link">View products</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_section main_section3">
+            <div class="main_section3_container">
+                <div class="main_section3_row">
+                    <h3>PRANA Now Offsets GHGs emitted from All Online Deliveries</h3>
+                    <p>
+                        We are taking a bold step forward in our sustainability journey. All greenhouse gas emissions
+                        (GHG) from our online deliveries will now be fully compensated.
+                    </p>
+                    <a href="#">Find out how</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_section main_section4">
+            <div>
+                <h1 class="section4_titre link">Follow us on Instagram</h1>
+                <div class="main_section4_container">
+                    <div class="main_section_video main_video1">
+                        <video src="videos/video1.mp4" autoplay loop muted class="main_video_size"></video>
+                    </div>
+                    <div class="main_section_video main_video2">
+                        <video src="videos/video2.mp4" autoplay loop muted class="main_video_size"></video>
+                    </div>
+                    <div class="main_section_video main_video3">
+                        <video src="videos/video3.mp4" autoplay loop muted class="main_video_size"></video>
+                    </div>
+                    <div class="main_section_video main_video4">
+                        <video src="videos/video4.mp4" autoplay loop muted class="main_video_size"></video>
+                    </div>
+                    <div class="main_section_video main_video5">
+                        <video src="videos/video5.mp4" autoplay loop muted class="main_video_size"></video>
+                    </div>
+                    <div class="main_section_video main_video6">
+                        <video src="videos/video6.mp4" autoplay loop muted class="main_video_size"></video>
+                    </div>
+                    <div class="main_section_video main_video7">
+                        <video src="videos/video7.mp4" autoplay loop muted class="main_video_size"></video>
+                    </div>
+                    <div class="main_section_video main_video8">
+                        <video src="videos/video8.mp4" autoplay loop muted class="main_video_size"></video>
+                    </div>
+                    <div class="main_section_video main_video9">
+                        <img src="images/section4/image copy 3.png" class="main_video_size">
+                    </div>
+                    <div class="main_section_video main_video10">
+                        <img src="images/section4/image copy 4.png" class="main_video_size">
+                    </div>
+                    <div class="main_section_video main_video11">
+                        <img src="images/section4/image.png" class="main_video_size">
+                    </div>
+                    <div class="main_section_video main_video12">
+                        <img src="images/section4/image copy.png" class="main_video_size">
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_section4_container2">
+                <h1 class="section4_titre link">Find easy back-to-school recipes</h1>
+                <div class="main_section4_container2_card">
+                    <div class="card_top">
+                        <div class="cards" id="cards1">
+                            <img src="images/section4/image.png" alt="img" class="main_section4_container2_card_img">
+                            <div>
+                                <h4 class="main_section4_container2_card_title">Matcha Energy Balls - Snacks Recipe</h4>
+                                <a href="#" class="sect4_link">See more</a>
+                            </div>
+                        </div>
+                        <div class="cards" id="cards2">
+                            <img src="images/section4/image copy.png" alt="img"
+                                class="main_section4_container2_card_img">
+                            <div>
+                                <h4 class="main_section4_container2_card_title">Fruit Leather with Chia - Snacks Recipe
+                                </h4>
+                                <a href="#" class="sect4_link">See more</a>
+                            </div>
+                        </div>
+                        <div class="cards" id="cards3">
+                            <img src="images/section4/image copy 2.png" alt="img"
+                                class="main_section4_container2_card_img">
+                            <div>
+                                <h4 class="main_section4_container2_card_title">Chocolate-Granolove Gourmet Snack</h4>
+                                <a href="#" class="sect4_link">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_section4_container2_card_link">
+                        <a href="#cards1"></a>
+                        <a href="#cards2"></a>
+                        <a href="#cards3"></a>
+                    </div>
+                    <a href="#" class="main_btn_card">all recipes</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_section main_section5">
+            <div class="div">
+                <h1 class="link">Let customers speak for us</h1>
+                <h2>from 5586 reviews</h2>
+            </div>
+
+            <div class="main_section5_container">
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Délicieuse</h5>
+                    <p>Délicieuse et local en plus , cultivée...</p>
+                </div>
+
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img2"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Perfection ✌🏼</h5>
+                    <p>Elles sont excellentes</p>
+                    <p>Susuzanne Lemieux</p>
+                </div>
+
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img3"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Organic Pecans</h5>
+                    <p>Organic Brazil Nuts</p>
+                    <p>Susuzanne Lemieux</p>
+                </div>
+
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img4"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Enfin des graines de citrouilles</h5>
+                    <p>Merci pour le travail afin de nous...</p>
+                    <p>Susuzanne Lemieux</p>
+                </div>
+
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img5"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Enfin des graines de citrouilles</h5>
+                    <p>Merci pour le travail afin de nous...</p>
+                    <p>Susuzanne Lemieux</p>
+                </div>
+
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img6"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Enfin des graines de citrouilles</h5>
+                    <p>Merci pour le travail afin de nous...</p>
+                    <p>Susuzanne Lemieux</p>
+                </div>
+
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Enfin des graines de citrouilles</h5>
+                    <p>Merci pour le travail afin de nous...</p>
+                    <p>Susuzanne Lemieux</p>
+                </div>
+
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img6"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Enfin des graines de citrouilles</h5>
+                    <p>Merci pour le travail afin de nous...</p>
+                    <p>Susuzanne Lemieux</p>
+                </div>
+
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img5"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Enfin des graines de citrouilles</h5>
+                    <p>Merci pour le travail afin de nous...</p>
+                    <p>Susuzanne Lemieux</p>
+                </div>
+
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img4"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Enfin des graines de citrouilles</h5>
+                    <p>Merci pour le travail afin de nous...</p>
+                    <p>Susuzanne Lemieux</p>
+                </div>
+
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img3"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Enfin des graines de citrouilles</h5>
+                    <p>Merci pour le travail afin de nous...</p>
+                    <p>Susuzanne Lemieux</p>
+                </div>
+
+                <div class="main_section5_content">
+                    <div class="main_section5_insert_img2"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>Enfin des graines de citrouilles</h5>
+                    <p>Merci pour le travail afin de nous...</p>
+                    <p>Susuzanne Lemieux</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_section main_section6">
+            <h1 class="main_section6_titre link">Find out more about us!</h1>
+
+            <div class="main_section6_container">
+                <div>
+                    <div class="content">
+                        <img src="images/section6/image.png" alt="image" class="main_section6_img">
+                        <h3 class="link main_section6_content_titre">PRANA Now Offsets GHGs emitted from All Online
+                            Deliveries</h3>
+                        <p>PRANA is taking a bold step forward in our sustainability journey. We are thrilled to
+                            announce
+                            that all greenhouse gas emissions (GHG) from our onl...</p>
+                        <a href="#">Read more</a>
+
+                    </div>
+                    <div class="content">
+                        <img src="images/section6/image copy.png" alt="image" class="main_section6_img">
+                        <h3 class="link main_section6_content_titre">Prana & the Fairtrade movement</h3>
+                        <p>Fair trade is more than just a label; it's a philosophy rooted in equity and justice.</p>
+                        <a href="#">Read more</a>
+                    </div>
+                    <div class="content content_box">
+                        <img src="images/section6/image copy 2.png" alt="image" class="main_section6_img">
+                        <h3 class="link main_section6_content_titre">Prana withdraws gluten-free certification from 2
+                            breakfast product lines.</h3>
+                        <p>After a thorough review of supply challenges to meet the increasing demand and ensure a
+                            reliable
+                            source of quality certified gluten-free oats, we h...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+
+                <button class="main_section6_btn1">View all blog posts</button>
+            </div>
+
+            <div class="main_section6_container2">
+                <div class="cont2">
+                    <div class="main_section6_container2_row" id="about">
+                        <div class="main_section6_container2_col">
+                            <img src="images/section2/div1/image copy.png" alt="image"
+                                class="main_section6_container2_img">
+                        </div>
+                        <div class="main_section6_container2_col main_section6_container2_col2">
+                            <h3 class="link section6_titre section6_titre1">about us</h3>
+                            <p>
+                                We are Prana, a family-owned company on a mission to make delicious foods better for you
+                                and
+                                the planet. All our products are plant-based and responsibly sourced, because
+                                every mindful choice fuels a more joyful life and brighter future for us all.
+                            </p>
+                            <h3 class="link section6_titre section6_titre2">Crave for change </h3>
+                        </div>
+                    </div>
+                    <div class="main_section6_container2_row" id="us">
+                        <div class="main_section6_container2_col">
+                            <img src="images/section2/div2/image copy.png" alt="image"
+                                class="main_section6_container2_img">
+                        </div>
+                        <div class="main_section6_container2_col main_section6_container2_col2">
+                            <h3 class="link section6_titre section6_titre3">b corp</h3>
+                            <p>
+                                A certified B Corp since 2015, we recognize our responsibility towards the planet, the
+                                community, our employees and partners, and are committed to producing in a responsible
+                                manner.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="main_section6_container2_row" id="pop">
+                        <div class="main_section6_container2_col">
+                            <img src="images/section2/div3/image copy.png" alt="image"
+                                class="main_section6_container2_img">
+                        </div>
+                        <div class="main_section6_container2_col main_section6_container2_col2">
+                            <h3 class="link section6_titre section6_titre4">impact</h3>
+                            <p>
+                                Responsible sourcing and greener packaging are our two of our main areas of focus but be
+                                sure to check out our Mission page to find out more about all our social and
+                                environmental
+                                initiatives.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li class="header_list">
+                        <a href="#about" class="link link_about1">about us</a>
+                    </li>
+                    <li class="header_list">
+                        <a href="#us" class="link link_about2">b corp</a>
+                    </li>
+                    <li class="header_list">
+                        <a href="#pop" class="link link_about3">impact</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_content footer_content1">
+            <div class="footer_content_sub">
+                <h1>join the family</h1>
+                <p>
+                    Subscribe to discover new products, private sales, new recipes & to save 15% off your first order!
+                </p>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <input type="submit" value="subscribe">
+                </form>
+            </div>
+        </div>
+        <div class="footer_content footer_content2">
+            <div class="footer_content_container">
+                <h5>Crave for change</h5>
+                <p>
+                    From breakfast to late-night snack, we have all the organic & tasty foods you need. Let us inspire
+                    you to eat more plant-based!
+                </p>
+                <img src="logo/name.png" alt="logo">
+                <div class="footer_content_reseaux">
+                    <p>follow us</p>
+                    <div>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_content_container">
+                <h5>on our site</h5>
+                <div class="footer_content_container_menu">
+                    <div class="footer_link footer_link1">
+                        <a href="#" class="link link_foot1">Shop all</a>
+                        <a href="#" class="link link_foot2">Subscription</a>
+                        <a href="#" class="link link_foot4">Recipes</a>
+                        <a href="#" class="link link_foot5">Contact us</a>
+                        <a href="#" class="link link_foot6">FAQ</a>
+                    </div>
+                    <div class="footer_link footer_link2">
+                        <a href="#" class="link link_foot7">Terms of Service</a>
+                        <a href="#" class="link link_foot8">Privacy Policy</a>
+                        <a href="#" class="link link_foot9">Buying Club</a>
+                        <a href="#" class="link link_foot10">Blog</a>
+                        <a href="#" class="link link_foot11">Refund Policy</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_content_container">
+                <h1>Newsletter</h1>
+                <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <input type="submit" value="subscribe">
+                </form>
+            </div>
+        </div>
+        <div class="footer_content footer_content3">
+            <form>
+                <select name="pays" id="pays">
+                    <option value="ENGLISH">ENGLISH</option>
+                    <option value="FRANCAIS">FRANCAIS</option>
+                </select>
+            </form>
+            <div>
+                <h3>&copy; prana organic</h3>
+                <p>Powered by Shopify</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

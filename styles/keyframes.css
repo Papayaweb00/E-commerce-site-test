@@ -1,0 +1,171 @@
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    20% {
+        transform: translateX(0%);
+    }
+
+    25% {
+        transform: translateX(-500%);
+    }
+
+    30% {
+        transform: translateX(-600%);
+    }
+
+    35% {
+        transform: translateX(-700%);
+    }
+
+    40% {
+        transform: translateX(-800%);
+    }
+
+    45% {
+        transform: translateX(-900%);
+    }
+
+    50% {
+        transform: translateX(-1000%);
+    }
+
+    70% {
+        transform: translateX(-1000%);
+    }
+
+    75% {
+        transform: translateX(-1100%);
+    }
+
+    80% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translateX(0%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    3% {
+        transform: translateX(0%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    5% {
+        transform: translateX(-125%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    10% {
+        transform: translateX(-125%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    15% {
+        transform: translateX(-250%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    20% {
+        transform: translateX(-250%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    25% {
+        transform: translateX(-375%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    30% {
+        transform: translateX(-375%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    35% {
+        transform: translateX(-500%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    40% {
+        transform: translateX(-500%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    45% {
+        transform: translateX(-650%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    50% {
+        transform: translateX(-650%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    55% {
+        transform: translateX(-750%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    70% {
+        transform: translateX(-750%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    75% {
+        transform: translateX(-875%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    80% {
+        transform: translateX(-875%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    85% {
+        transform: translateX(-1010%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    90% {
+        transform: translateX(-1010%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    95% {
+        transform: translateX(-1135%);
+        margin: 0 auto;
+        display: block;
+    }
+
+    100% {
+        transform: translateX(0%);
+        margin: 0 auto;
+        display: block;
+    }
+}
